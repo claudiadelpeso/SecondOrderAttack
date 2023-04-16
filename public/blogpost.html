@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Posts</title>
+  <link rel="stylesheet" href="/styles.css">
+
+  <style>
+    /* Add your custom styles here */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Blog Posts</h1>
+    <div id="post-list"></div>
+  </div>
+  <script>
+    async function fetchPosts() {
+      const response = await fetch('/blogposts');
+      const posts = await response.json();
+      const postList = document.getElementById('post-list');
+      posts.forEach(post => {
+        const postDiv = document.createElement('div');
+        postDiv.innerHTML = `
+          <h2>${post.title}</h2>
+          <p>${post.content}</p>
+          <p>By: ${post.author}</p>
+        `;
+        postList.appendChild(postDiv);
+      });
+    }
+    fetchPosts();
+  </script>
+</body>
+</html>
