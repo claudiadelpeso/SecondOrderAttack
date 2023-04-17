@@ -43,3 +43,5 @@ Admin' --
 '; UPDATE blog_posts SET number_likes = number_likes + 10 WHERE id = 1 --
 ```
 
+4) Remove the new account
+
