@@ -44,4 +44,6 @@ Admin' --
 ```
 
 4) Remove the new account
-
+```sql
+' ; DELETE FROM users WHERE ROWID = (SELECT MAX(ROWID) FROM users) --
+```
