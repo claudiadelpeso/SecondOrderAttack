@@ -1,6 +1,8 @@
 ### TDA602 Course Project - Second-Order SQL Injection
 
-This project demonstrates a second-order SQL injection vulnerability in a blog website. 
+This project demonstrates a second-order SQL injection vulnerability in a blog website.
+The code is written in Node.js and SQLite, and this is a self-made blog created and designed by us. We intentionally added some lack of security measures to make the second-order SQL injection attacks possible, allowing us to demonstrate the vulnerability and emphasize the importance of proper security practices when developing web applications.
+
 Users can create new accounts and write blog posts after logging in. Each post can be liked once, 
 and the posts are sorted by the number of likes, with the most liked posts appearing at the top. 
 As an admin, you have also the privilege to remove these posts.
