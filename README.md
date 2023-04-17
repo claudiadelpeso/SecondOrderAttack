@@ -67,7 +67,7 @@ Admin' --
 
 <img src="Screenshot 2023-04-17 at 12.34.25.png" alt="My Image" style="max-width: 70%;">
 
-#### Create post and change password:
+#### Create post and update password:
 
 <img src="Screenshot 2023-04-17 at 12.34.34.png" alt="My Image" style="max-width: 70%;">
 
