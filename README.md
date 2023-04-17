@@ -58,11 +58,11 @@ Admin' --
 
 ## Images of the blog website:
 
-#### Log in:
+#### Login and Register:
 
 <img src="Screenshot 2023-04-17 at 12.33.24.png" alt="My Image" style="max-width: 70%;">
 
-#### Logged in as admin (only difference is the remove button):
+#### Logged in as admin (only difference is the delete button):
 
 
 <img src="Screenshot 2023-04-17 at 12.34.25.png" alt="My Image" style="max-width: 70%;">
