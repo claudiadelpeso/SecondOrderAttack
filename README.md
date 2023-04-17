@@ -3,6 +3,7 @@
 This project demonstrates a second-order SQL injection vulnerability in a blog website. 
 Users can create new accounts and write blog posts after logging in. Each post can be liked once, 
 and the posts are sorted by the number of likes, with the most liked posts appearing at the top. 
+As an admin, you have also the privilege to remove these posts.
 The second-order injection attack can be performed by registering a new account with a malicious SQL 
 command in the username field and then updating the password. Further details are provided below.
 
