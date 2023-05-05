@@ -22,6 +22,9 @@ function generateGravatarUrl(email) {
 
 }
 
+function escapeSingleQuotes(str) {
+  return str.replace(/'/g, "''");
+}
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -36,7 +39,9 @@ const current_loggedin=0;
 
 app.post("/update-password", (req, res) => {
   const username = req.session.user.username;
-  const newPassword = req.body.new_password;
+  //const newPassword = req.body.new_password;
+  const newPassword = escapeSingleQuotes(req.body.new_password);
+
 
   //const query = `UPDATE users SET password='${newPassword}' WHERE username='Admin' --'`;
   const quer2 = `UPDATE users SET password='${newPassword}' WHERE username='${username}'`;  
