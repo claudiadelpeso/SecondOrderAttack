@@ -75,4 +75,4 @@ Admin' --
 <img src="Screenshot 2023-04-17 at 12.34.34.png" alt="My Image" style="max-width: 70%;">
 
 ## Run the code
-To run the code, "node app.js"
+To run the code, write "node app.js" in the terminal
