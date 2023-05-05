@@ -62,6 +62,9 @@ Admin' --
 
 <img src="Screenshot 2023-04-17 at 12.33.24.png" alt="My Image" style="max-width: 70%;">
 
+
+
+
 #### Logged in as admin (only difference is the delete button):
 
 
@@ -71,3 +74,5 @@ Admin' --
 
 <img src="Screenshot 2023-04-17 at 12.34.34.png" alt="My Image" style="max-width: 70%;">
 
+## Run the code
+To run the code, "node app.js"
